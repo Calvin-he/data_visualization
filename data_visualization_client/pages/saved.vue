@@ -14,13 +14,9 @@
 </template>
 
 <script>
-import { Chart } from 'highcharts-vue'
 import { formatDate } from '~/components/js/util'
 
 export default {
-  components: {
-    highcharts: Chart
-  },
   data() {
     return {
       chartOptions: {

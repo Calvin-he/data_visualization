@@ -17,15 +17,11 @@
 </template>
 
 <script>
-import { Chart } from 'highcharts-vue'
 import { formatDate } from '~/components/js/util'
 
 const INTERVAL_IN_SECONDS = 10 // refresh every 10 seconds
 
 export default {
-  components: {
-    highcharts: Chart
-  },
   data() {
     return {
       chartOptions: {
