@@ -1,0 +1,3 @@
+Flask==1.0.3
+Flask-Cors==3.0.7
+Flask-PyMongo==2.3.0

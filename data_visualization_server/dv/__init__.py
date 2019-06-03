@@ -14,7 +14,7 @@ def create_app(test_config=None):
     from . import record
     app.register_blueprint(record.bp, url_prefix='/api/record')
 
-    # add static file as root directory
+    # add static file as root directory, access http://localhost:5000
     cur_dir = dirname(realpath(__file__))
     dist_dir = join(cur_dir, '../../data_visualization_client', 'dist')
     @app.route('/<path:path>', methods=['GET'])

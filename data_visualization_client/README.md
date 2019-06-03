@@ -1,6 +1,6 @@
 # data_visualization_client
 
-> visualize data 
+> using Nuxt based on Vue  
 
 ## Build Setup
 
